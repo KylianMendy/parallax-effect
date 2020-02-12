@@ -1,0 +1,53 @@
+body{
+  
+  background-image: url(background.jpg) ;
+}
+
+h1{
+  font-family: 'Sriracha', cursive;
+  font-weight: bold;
+  color: white;
+  position: absolute 20px ;
+  text-align: center;
+}
+.slider__élements{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.élem1{
+  margin: 50px;
+  text-align: center;
+  display: inline-block;
+  position: relative;
+}
+
+.text__élem1{
+  color: white;
+  font-family: Helvetica;
+  width: 240px;
+  height: 300px;
+  display: block;
+  position: absolute;
+  top: 0px;
+  opacity:0;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.pic__élem1 {
+  height: 300px;
+  box-shadow: 30px -6px rgb(59, 69, 88);
+}
+
+.pic__élem1:hover{
+  opacity: 40%;
+  transition: .5s ease-in-out;
+}
+
+.élem1:hover .text__élem1 {
+  opacity: 1;
+}
+
+
+
