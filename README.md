@@ -1,2 +1,2 @@
-# parallax-effect
-parallax with anime picture
+# Anime Gallery
+Using a Java Script library with anime picture
